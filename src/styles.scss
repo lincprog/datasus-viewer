@@ -1,0 +1,166 @@
+$theme-colors: (
+  "primary": #4267b2,
+  "light": #ebebeb,
+);
+
+$fa-font-path: "../node_modules/font-awesome/fonts";
+
+@import '~font-awesome/scss/font-awesome.scss';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+canvas{
+
+  width:1000px !important;
+  height:600px !important;
+
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+select.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+input.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+
+select.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+textarea.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+
+.texto_verde_escuro{
+  color: #155b23;
+}
+
+fieldset {
+  border: 1px solid rgba(21, 91, 35, 0.28) !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow:  0px 0px 0px 0px #000;
+  box-shadow:  0px 0px 0px 0px #000;
+  padding: 20px !important;
+}
+
+legend {
+  font-size: 17px !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  width:auto;
+  padding:0 10px;
+  border-bottom:none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-item > a:hover{
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav > a:hover, a:after{
+  color: #d5d5d5 !important;
+}
+
+.jumbotron{
+  background-color: #fbfdff;
+}
+
+.card-header{
+  background-color: #e9ecef;
+  color: #4267b2;
+}
+
+.loadWrapper {
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 99999;
+}
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3d3e3f; /* gray */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.campo-opcional{
+  border: 1px solid #ced4da !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(19, 14, 255, 0.05);
+}
+
+.input-group-text{
+  width: 38px !important;
+}
+
+.modal-content{
+  padding: 20px;
+}
+
+.modal-footer{
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.modal-lg {
+  max-width: 900px !important;
+}
+
+//Notificação Top
+
+.icone_notificacao{
+  padding-left: 0 !important;
+  padding-right: 1px !important;
+}
+
+body {
+  word-wrap: break-word !important;
+}
+
+.loadWrapper {
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 99999;
+}
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3d3e3f; /* gray */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}

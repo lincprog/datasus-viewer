@@ -1,0 +1,7 @@
+<app-topo *ngIf="isLogged"></app-topo>
+<div class="jumbotron" style="height: 200vh;margin-top: 50px;">
+  <div class="container" style="text-align: center;margin-bottom: 100px; max-width: 1400px !important;">
+    <router-outlet (activate)="onActivate($event)" ></router-outlet>
+  </div>
+</div>
+<app-rodape *ngIf="isLogged"></app-rodape>

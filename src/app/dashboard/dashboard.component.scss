@@ -1,0 +1,23 @@
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: -1.25rem;
+  right: -1rem;
+  opacity: 0.4;
+  font-size: 5rem;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1700px !important;
+  }
+}
+
+.inline-flatpickr .form-control,
+.flatpickr-calendar.arrowTop:before,
+.flatpickr-calendar.arrowTop:after {
+  display: none;
+}

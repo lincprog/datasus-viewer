@@ -1,0 +1,36 @@
+<nav class="navbar navbar-dark bg-primary fixed-top mb-5">
+  <a class="navbar-brand" routerLink="/"><i class="fa fa-home"></i></a>
+  <div class="navbar-expand mr-auto">
+    <div class="navbar-nav">
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLinkActive="router-link-active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ações
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" routerLink="/importacao" >Importação</a>
+          <a class="dropdown-item" routerLink="/dashboard" >Relatórios</a>
+        </div>
+      </div>
+      <!--<a class="nav-item nav-link" routerLink="/dashboard" *ngIf="user.hasPermission(['ROLE_ADMIN'])">Relatórios</a>-->
+      <!--<a class="nav-item nav-link" routerLink="/manifestacaoPublica/cadastro" *ngIf="user.hasPermission(['ROLE_ADMIN'])">Emails</a>-->
+
+    </div>
+  </div>
+  <div class="navbar-expand ml-auto navbar-nav">
+    <div class="navbar-nav">
+      <!--<a class="nav-item nav-link" [routerLink]="['/manifestacaoPublica/autorizacao', true]">-->
+        <!--<div class="notification-icon">-->
+          <!--<span class="fa fa-2x fa-envelope"></span>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<i class="fa fa-2x fa-envelope"></i>&ndash;&gt;-->
+      <!--</a>-->
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="btn btn-danger text-white" target="_blank" (click)="logout()" >
+        <i class="fa fa-sign-out" style="font-size: 20px;margin-top:5px"> Sair</i>
+      </a>
+
+    </div>
+  </div>
+</nav>
+
+
