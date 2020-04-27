@@ -11,7 +11,7 @@
 ```bash
   $ docker build -t datasus-view-app .
   
-  $ docker run -d -p 4200:80 datasus-view
+  $ docker run -d -p 4200:80 datasus-view-app
 ```
 ## Acessando a Aplicação
   - acesse: http://localhost:4200
